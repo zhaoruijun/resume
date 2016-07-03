@@ -17,14 +17,14 @@ new Swiper ('.swiper-container', {
         loop: true,
 
         // 如果需要分页器
-        pagination: '.swiper-pagination',
+        //pagination: '.swiper-pagination',
 
         // 如果需要前进后退按钮
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
+        //nextButton: '.swiper-button-next',
+        //prevButton: '.swiper-button-prev',
 
         // 如果需要滚动条
-        scrollbar: '.swiper-scrollbar',
+        //scrollbar: '.swiper-scrollbar',
     //->向上切换结束:swiper->当前本次初始化new Swiper创建出来的实例
     onSlidePrevEnd: changeEnd,
     //->向下切换结束:swiper.activeIndex当前活动块的索引
